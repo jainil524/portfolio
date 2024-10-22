@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-const pdf = React.lazy(() => import("https://drive.google.com/file/d/1nyUKjhSGvmCmfMMIHP6o9i0BuEYotL8X/view?usp=drive_link"));
+import pdf from "../../Assets/Jainil_Prajapati_Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
