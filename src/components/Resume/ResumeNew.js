@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
+import pdf from "https://drive.google.com/file/d/1nyUKjhSGvmCmfMMIHP6o9i0BuEYotL8X/view?usp=drive_link";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -21,7 +22,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href="https://drive.google.com/file/d/1nyUKjhSGvmCmfMMIHP6o9i0BuEYotL8X/view?usp=drive_link"
+            href={pdf}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
