@@ -19,6 +19,40 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          {/* Skribbl Clone */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={placeholderImage}
+              isBlog={false}
+              title="Skribbl Clone"
+              description="Skribbl is a fun, interactive online multiplayer drawing and guessing game. Players take turns drawing a word or phrase while others try to guess it. The game includes various categories and allows players to create private rooms, making it a popular choice for group entertainment. With its simple and engaging mechanics, Skribbl promotes creativity and fast thinking, making it enjoyable for players of all ages."
+              ghLink="https://github.com/jainil524/Scribble-Clone"
+            />
+          </Col>
+
+          {/* Flappy Bird Clone */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={placeholderImage}
+              isBlog={false}
+              title="Flappy Bird Clone"
+              description="Flappy Bird is a highly addictive mobile game where players control a small bird that must navigate through a series of pipes by tapping the screen to make it flap its wings. The goal is to avoid crashing into the pipes while trying to achieve the highest score possible. Despite its simple gameplay and pixelated graphics, Flappy Bird became a viral sensation due to its challenging difficulty and rewarding, yet frustrating, mechanics."
+              ghLink="https://github.com/jainil524/Flappy-bird"
+            />
+          </Col>
+
+          {/* E-Commerce */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={placeholderImage}
+              isBlog={false}
+              title="E-Commerce"
+              description="E-Commerce refers to the buying and selling of goods and services over the internet. It encompasses a wide range of online business activities, from retail stores and digital marketplaces to service-based platforms. E-commerce allows businesses to reach global customers, provide seamless shopping experiences, and streamline transaction processes. Key features include online product catalogs, secure payment gateways, and customer support, contributing to the rapid growth of the digital economy and changing the way people shop."
+              ghLink="https://github.com/jainil524/E-Commerce"
+            />
+          </Col>
+
+          {/* AgileSync */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={agileSyncImage}
@@ -29,6 +63,7 @@ function Projects() {
             />
           </Col>
 
+          {/* DocuZen */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={docuZenImage}
@@ -39,6 +74,7 @@ function Projects() {
             />
           </Col>
 
+          {/* Database Version Control (on Going) */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={placeholderImage}
@@ -49,6 +85,7 @@ function Projects() {
             />
           </Col>
 
+          {/* Book Sharing */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={placeholderImage}
@@ -59,6 +96,7 @@ function Projects() {
             />
           </Col>
 
+          {/* Chess Game */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chessGameImage}
